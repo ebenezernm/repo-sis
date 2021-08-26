@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet">
+    <title>BNZ Receitas</title>
+</head>
+
+<body>
+    <header>
+        <article id="busca">
+            <form>
+                <img src="img/default/busca.webp" alt="Buscar..." />
+                <input tabindex="1" type="text" id="txtBusca" placeholder="Buscar..." />
+                <button tabindex="2" id="btnBusca">Buscar</button>
+            </form>
+        </article>
+    </header>
+    <!--O Nav deverá ficar fixo a esquerda superior do site (mesmo durante a rolagem)-->
+    <nav class="menu">
+        <a tabindex="-1" class="logotipo" href="index.html"></a>
+        <h1 class="nav-title">Lista de receitas</h1>
+        <ul>
+            <li><a tabindex="3" href="#bolo-de-cake">Bolo de cake</a></li>
+            <li><a tabindex="4" href="#suco-de-juice">Suco de juyce</a></li>
+            <li><a tabindex="5" href="#feijao-ao-molho-de-beans">Feijão ao molho de beans</a></li>
+            <li><a tabindex="6" href="receitapower.html">Receita Power</a></li>
+        </ul>
+    </nav>
+    <!--Todos os sections de receita, deverão ficar a direita do site,
+        e a rolagem levará de uma receita a outra-->
+    <main>
+        <article class="receita" id="bolo-de-cake">
+            <section class="titulo-receita">
+                <h3>Bolo de cake</h3>
+                <img class="img-receita" src="img/bolo.webp"
+                    alt="Fotografia de um bolo redondo e amarelo com furo ao meio">
+            </section>
+            <section class="corpo-receita">
+                <h3><strong>Ingredientes</strong></h3>
+                <ul>
+                    <li>1 cake</li>
+                    <li>1 xícara de farinha de trigo</li>
+                    <li>1l de leite</li>
+                    <li>4 copos de yogurte</li>
+                    <li>1/2l de chantilly</li>
+                </ul>
+                <h3>Modo de preparo</h3>
+                <ul>
+                    <li>Desfaça todo o cake</li>
+                    <li>Misture com a farinha em uma vasilha grande</li>
+                    <li>Jogue todo o leite e todo o yogurte no cake já misturada com a farinha</li>
+                    <li>Misture com o Fuê até criar consistência </li>
+                    <li>Se ficar muito seco, pode jogar mais leite (com cuidado para não ficar liquido)</li>
+                    <li>Após criar consistência, jogue em uma forma untada</li>
+                    <li>Leve ao forno em 180º por 3 minutos</li>
+                    <li>Retire do forno e já espalhe o chantilly a gosto por cima</li>
+                    <li>O Bolo de cake deve ser servido logo após feito</li>
+                </ul>
+                <a href="files/bolo-de-cake.odt">Baixar</a>
+            </section>
+        </article>
+        <hr>
+        <article class="receita" id="suco-de-juice">
+            <section class="titulo-receita">
+                <h3>Suco de juyce</h3>
+                <img class="img-receita" src="img/suco.webp"
+                    alt="Fotografia de um copo cheio de suco e ao lado uma laranja corta ao meio">
+            </section>
+            <section class="corpo-receita">
+                <h3>Ingredientes</h3>
+                <ul>
+                    <li>500ml de Juyce</li>
+                    <li>2 xícaras de açucar</li>
+                    <li>250ml de água</li>
+                    <li>4 colheres com essência de sua fruta preferida</li>
+                    <li>1 pitada de sal</li>
+                </ul>
+                <h3>Modo de preparo</h3>
+                <ul>
+                    <li>Jogue todos os ingrediêntes no copo do liquidificador</li>
+                    <li>Bata por 3 minutos</li>
+                    <li>Coloque no freezer por aproximadamente 20 minutos</li>
+                    <li>Sirva em copos a gosto</li>
+                </ul>
+                <a href="files/suco-de-juyce.odt">Baixar</a>
+            </section>
+        </article>
+        <hr>
+        <article class="receita" id="feijao-ao-molho-de-beans">
+            <section class="titulo-receita">
+                <h3>Feijão ao molho de beans</h3>
+                <img class="img-receita" src="img/feijão.webp"
+                    alt="Fotografia de uma cumbuca branca cheia de feijão com uma folha de cheiro verde ao meio ">
+            </section>
+            <section class="corpo-receita">
+                <h3>Ingredientes</h3>
+                <ul>
+                    <li>500g de beans</li>
+                    <li>500g de feijão</li>
+                    <li>700ml de água</li>
+                    <li>10mg de sal</li>
+                    <li>Manjericão a gosto</li>
+                    <li>3 dentes de alho</li>
+                    <li>1 pimentão</li>
+                    <li>1 maço de cheiro verde</li>
+                </ul>
+                <h3>Modo de preparo</h3>
+                <ul>
+                    <li>Aqueça toda a água em uma panela</li>
+                    <li>Enquanto a água aquece, pique e frite o alho junto ao sal, manjericão e pimentão</li>
+                    <li>Com a água começado a ferver, coloque o feijão por 15 min</li>
+                    <li>Após, jogue também o 500mg de beans por 5 min</li>
+                    <li>Após, jogue o alho já frito e temperado</li>
+                    <li>Misture bem e deixe ao fogo baixo por mais 15 minutos</li>
+                    <li>Enquanto isto, pique o cheiro verde</li>
+                    <li>Jogue o cheiro verde quando desligar o fogo, e deixe descansar</li>
+                    <li>O Feijão ao molho de beans pode ser servido sozinho ou como acompanhamento</li>
+                </ul>
+                <a href="files/feijão-ao-molho-de-beans.odt">Baixar</a>
+            </section>
+        </article>
+    </main>
+    <!--<footer>
+        <p>Para mais receitas, acesse: <a href="https://www.google.com/search?q=receitas">Google</a></p>
+    </footer>-->
+</body>
+
+</html>
