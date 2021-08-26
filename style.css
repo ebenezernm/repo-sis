@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: darkblue;
+}
+
+#container{
+    width: 1200px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    box-shadow: 0 0 4px darkblue;
+}
+
+#container > header{
+    border-bottom: dotted medium lightsteelblue;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+section{
+    padding: 30px;
+    min-height: 400px;
+}
+
+section :is(h1, h2) {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+#names{
+    list-style-type: square;
+    font-size: 1.4rem;
+}
+
+#names :is(a:link, a:active, a:visited){
+    text-decoration: none;
+}
+
+#names a:hover{
+    background-color: darkblue;
+    color: lightgreen;
+    transition: 0.2s;
+} 
+
+#logo{
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+section hr {
+    width: 50%;
+    margin: 5px auto;
+}
+
+footer{
+    text-align: center;
+    padding: 30px;
+    background-color: lightsteelblue;
+}
+
+#container, footer {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
